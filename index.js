@@ -110,7 +110,7 @@ async function loadMainPrompts() {
     case "REMOVE_ROLE":
       return removeRole();
     default:
-      return quit();
+      return;
   }
 }
 
